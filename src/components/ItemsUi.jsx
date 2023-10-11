@@ -34,6 +34,7 @@ const ItemsUi = ({ data, edit, form }) => {
           Delete
         </button>
         <button
+          className="bg-red-500 p-2 text-white rounded text-lg ml-2"
           onClick={() => {
             edit(data);
             form();

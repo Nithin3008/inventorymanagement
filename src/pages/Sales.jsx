@@ -140,12 +140,14 @@ const Sales = () => {
               <SalesUi key={val._id} data={val}></SalesUi>
             ))}
       </ul>
-      <button
-        className="bg-red-500 p-2 text-lg text-white"
-        onClick={() => setDisplay(!displayForm)}
-      >
-        Add New Sale
-      </button>
+      <div className="text-center">
+        <button
+          className="bg-red-500 p-2 text-lg text-white"
+          onClick={() => setDisplay(!displayForm)}
+        >
+          Add New Sale
+        </button>
+      </div>
     </>
   );
 };

@@ -176,12 +176,14 @@ const Inventory = () => {
           ></ItemsUi>
         ))}
       </ul>
-      <button
-        className="bg-red-500 p-2 text-lg text-white"
-        onClick={() => setDisplay(!displayForm)}
-      >
-        Add New Item
-      </button>
+      <div className="text-center">
+        <button
+          className="bg-red-500 p-2 text-lg text-white"
+          onClick={() => setDisplay(!displayForm)}
+        >
+          Add New Item
+        </button>
+      </div>
     </>
   );
 };

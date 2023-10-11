@@ -9,7 +9,7 @@ const Navigation = () => {
   });
   return (
     <>
-      <div className="flex flex-col w-72 items-center justify-center gap-5 bg-orange-200">
+      <div className="flex flex-col fixed h-full w-72 items-center justify-center gap-5 bg-orange-200">
         <NavLink style={setActiveStyle} to="/">
           Home
         </NavLink>
@@ -23,13 +23,13 @@ const Navigation = () => {
           All Reports
         </NavLink>
         <a
-          href="https://github.com/Nithin3008/fitnessapp"
+          href="https://github.com/Nithin3008/inventorymanagement"
           className="text-xl text-blue-500 font-bold"
         >
           Github Link
         </a>
         <a
-          href="https://replit.com/@nithinrocky30/assignment17"
+          href="https://replit.com/@nithinrocky30/assign18"
           className="text-xl text-blue-500 font-bold"
         >
           Repl Link
